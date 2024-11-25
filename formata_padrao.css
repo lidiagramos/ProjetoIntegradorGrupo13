@@ -1,0 +1,99 @@
+/* Estilos gerais */
+
+body {
+    background-image: url('SL-100420-36140-05.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* A imagem ocupa toda a área da página */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    background-attachment: fixed; /* A imagem fica fixa enquanto o usuário rola a página */
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    color: #333;
+}
+
+h3 {
+    color: #8B4513;
+}
+
+/* Estilo da tabela */
+table {
+    background-color: #FFDAB9;
+    font: 16px 'Montserrat', sans-serif;
+    color: #333;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo dos links do menu */
+.A:link, .A:visited {
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+    color: #8B4513;
+}
+
+.A:hover {
+    text-decoration: none;
+    font-family: 'Verdana', sans-serif;
+    color: white;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #FFE4C4;
+    font: 15px 'Montserrat', sans-serif;
+    color: #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    width: 80%;
+}
+
+/* Estilo dos botões */
+.botao {
+    background-color: #FFDEAD;
+    font: 15px 'Montserrat', sans-serif;
+    color: #8B4513;
+    border-radius: 10px;
+    border: 1px solid #CD853F;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.botao:hover {
+    background-color: #CD853F;
+    color: #fff;
+}
+
+/* Estilo dos inputs */
+input, select {
+    background-color: #FFFAF0;
+    font: 15px 'Montserrat', sans-serif;
+    color: #333;
+    border: 1px solid #CD853F;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px); /* Ajuste para bordas */
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #8B4513;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .header h1 {
+        font-size: 2em;
+    }
+    form {
+        width: 95%;
+    }
+}
